@@ -1,9 +1,11 @@
 def reverse_each_word(sen)
+  rev_arr = []
   senarr = sen.split
   senarr.collect do |word|
-    word.reverse 
+    rev_word = word.reverse
+    rev_arr << rev_word
   end
-  senarr.join(" ")
+  rev_array.join(" ")
 end
 
 
